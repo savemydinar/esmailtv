@@ -3,7 +3,7 @@
 # GoIndex-theme-acrou 
 Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and [Google Drive](https://www.google.com/drive/) will allow you to index you files on the browser on Cloudflare Workers.    
 
-[go2index/index.js](https://github.com/Aicirou/goindex-theme-acrou/go2index) is the content of the Workers script.  
+[go2index/index.js](https://github.com/savemydinar/esmailtv/go2index) is the content of the Workers script.  
 
 This theme's goindex is currently based on [yanzai/goindex](https://github.com/yanzai/goindex/)
 
@@ -50,7 +50,7 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 2. Create a [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. Install [rclone](https://rclone.org/downloads/) software locally
 4. Get `refresh_token ` with `rclone`
-5. Download `index.js` in https://github.com/Aicirou/goindex-theme-acrou/tree/master/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
+5. Download `index.js` in https://github.com/savemydinar/esmailtv/tree/master/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
 6. Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 > If you write a good article and want to share it with others, please submit Issues and I will post the link here.
@@ -119,17 +119,17 @@ audio: {
 
 ### v2.0.8
 
-- Fix image file actions does not work [#100](https://github.com/Aicirou/goindex-theme-acrou/issues/100)
-- Fix misjudged file to image format [#88](https://github.com/Aicirou/goindex-theme-acrou/issues/88)
-- Fix more than 10 drive not working [#59](https://github.com/Aicirou/goindex-theme-acrou/issues/59) [#85](https://github.com/Aicirou/goindex-theme-acrou/issues/85)
+- Fix image file actions does not work [#100](https://github.com/savemydinar/esmailtv/issues/100)
+- Fix misjudged file to image format [#88](https://github.com/savemydinar/esmailtv/issues/88)
+- Fix more than 10 drive not working [#59](https://github.com/savemydinar/esmailtv/issues/59) [#85](https://github.com/savemydinar/esmailtv/issues/85)
 - Fix some of the operation functions in the search list cannot be used
 - Fix text cache content not refreshing
-- Add video default player([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/Aicirou/goindex-theme-acrou/issues/22) [#38](https://github.com/Aicirou/goindex-theme-acrou/issues/38)
-- Add audio player ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/Aicirou/goindex-theme-acrou/issues/77)
+- Add video default player([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/savemydinar/esmailtv/issues/22) [#38](https://github.com/savemydinar/esmailtv/issues/38)
+- Add audio player ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/savemydinar/esmailtv/issues/77)
 - Add copy button to video page
 - Add [NProgress](https://github.com/rstacruz/nprogress)
 - Add language cache cleanup
-- Add shortcut can't download tip [#76](https://github.com/Aicirou/goindex-theme-acrou/issues/76)
+- Add shortcut can't download tip [#76](https://github.com/savemydinar/esmailtv/issues/76)
 - Markdown displays rendered html by default
 - CLI Delete prefetch preload of lazy load module
 - Delete fontawesome5
@@ -140,9 +140,9 @@ audio: {
 - Support for custom video player (API)
 - Beautify: the grid mode file shows icon when no preview is shown
 - Beautify: Adjust the HEAD.md render position
-- Solve the problem that files that can't be previewed can't be downloaded directly by clicking [#30](https://github.com/Aicirou/goindex-theme-acrou/issues/30)
-- Solve the problem that the file name cannot be opened [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20)
-- Solve the problem that switching pages will fall back in the current page loading [#37](https://github.com/Aicirou/goindex-theme-acrou/issues/37) (Thanks [@PedroZhang](https://github.com/PedroZhang) Help to find out the cause of the problem)
+- Solve the problem that files that can't be previewed can't be downloaded directly by clicking [#30](https://github.com/savemydinar/esmailtv/issues/30)
+- Solve the problem that the file name cannot be opened [#20](https://github.com/savemydinar/esmailtv/issues/20)
+- Solve the problem that switching pages will fall back in the current page loading [#37](https://github.com/savemydinar/esmailtv/issues/37) (Thanks [@PedroZhang](https://github.com/PedroZhang) Help to find out the cause of the problem)
 
 ### v2.0.0
 
@@ -158,7 +158,7 @@ audio: {
 - Support quick deployment
 - Support PDF Online preview
 - Replace text editor
-- Solve the problem of URL encoding [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20) [#23](https://github.com/Aicirou/goindex-theme-acrou/issues/23) [#25](https://github.com/Aicirou/goindex-theme-acrou/issues/25)
+- Solve the problem of URL encoding [#20](https://github.com/savemydinar/esmailtv/issues/20) [#23](https://github.com/savemydinar/esmailtv/issues/23) [#25](https://github.com/savemydinar/esmailtv/issues/25)
 - Solve other known problems
 
 ### v1.x

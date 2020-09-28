@@ -2,7 +2,7 @@
 
 结合 [Cloudflare Workers](https://workers.cloudflare.com/) 和 [Google Drive](https://www.google.com/drive/) 的力量，你可以在Cloudflare Workers的浏览器上建立你的文件索引。
 
-[go2index/index.js](https://github.com/Aicirou/goindex-theme-acrou/go2index) 是Workers脚本的内容。
+[go2index/index.js](https://github.com/savemydinar/esmailtv/go2index) 是Workers脚本的内容。
 
 这个主题的goindex目前是基于 [yanzai/goindex](https://github.com/yanzai/goindex/)
 
@@ -49,7 +49,7 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 2. 创建一个 [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. 本地安装[rclone](https://rclone.org/downloads/)
 4. 使用`rclone`获取`refresh_token`
-5. 下载`index.js` (https://github.com/Aicirou/goindex-theme-acrou/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
+5. 下载`index.js` (https://github.com/savemydinar/esmailtv/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
 6. 把代码部署到[Cloudflare Workers](https://www.cloudflare.com/)
 
 > 如果你写了一篇不错的文章，想分享给大家，请提交Issues，我会把链接贴在这里。
@@ -115,17 +115,17 @@ audio: {
 
 ### v2.0.8
 
-- 修复图片文件操作列不可用问题 [#100](https://github.com/Aicirou/goindex-theme-acrou/issues/100)
-- 修复错误判断图片问题 [#88](https://github.com/Aicirou/goindex-theme-acrou/issues/88)
-- 修复无法设置10个以上的drive [#59](https://github.com/Aicirou/goindex-theme-acrou/issues/59) [#85](https://github.com/Aicirou/goindex-theme-acrou/issues/85)
+- 修复图片文件操作列不可用问题 [#100](https://github.com/savemydinar/esmailtv/issues/100)
+- 修复错误判断图片问题 [#88](https://github.com/savemydinar/esmailtv/issues/88)
+- 修复无法设置10个以上的drive [#59](https://github.com/savemydinar/esmailtv/issues/59) [#85](https://github.com/savemydinar/esmailtv/issues/85)
 - 修复搜索结果中的某些操作无法使用
 - 修复修改内容后缓存不刷新
-- 添加默认视频播放器 ([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/Aicirou/goindex-theme-acrou/issues/22) [#38](https://github.com/Aicirou/goindex-theme-acrou/issues/38)
-- 添加音频播放器 ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/Aicirou/goindex-theme-acrou/issues/77)
+- 添加默认视频播放器 ([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/savemydinar/esmailtv/issues/22) [#38](https://github.com/savemydinar/esmailtv/issues/38)
+- 添加音频播放器 ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/savemydinar/esmailtv/issues/77)
 - 视频页面添加复制按钮
 - 添加 [NProgress](https://github.com/rstacruz/nprogress)
 - 添加语言缓存清理
-- 添加快捷方式无法下载提示 [#76](https://github.com/Aicirou/goindex-theme-acrou/issues/76)
+- 添加快捷方式无法下载提示 [#76](https://github.com/savemydinar/esmailtv/issues/76)
 - Markdown默认显示渲染的html
 - CLI删除懒加载模块的预加载
 - 删除fontawesome5
@@ -136,9 +136,9 @@ audio: {
 - 支持自定义视频播放器（API）
 - 美化：网格模式文件无预览图时显示图标
 - 美化：调整HEAD.md渲染位置
-- 解决搜索不能预览的文件点击无法直接下载 [#30](https://github.com/Aicirou/goindex-theme-acrou/issues/30)
-- 解决文件名中有#无法打开的问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20)
-- 解决当前页面加载中切换页面会回退的问题 [#37](https://github.com/Aicirou/goindex-theme-acrou/issues/37) (感谢[@PedroZhang](https://github.com/PedroZhang)帮忙找出的问题原因)
+- 解决搜索不能预览的文件点击无法直接下载 [#30](https://github.com/savemydinar/esmailtv/issues/30)
+- 解决文件名中有#无法打开的问题 [#20](https://github.com/savemydinar/esmailtv/issues/20)
+- 解决当前页面加载中切换页面会回退的问题 [#37](https://github.com/savemydinar/esmailtv/issues/37) (感谢[@PedroZhang](https://github.com/PedroZhang)帮忙找出的问题原因)
 
 ### v2.0.0
 
@@ -155,7 +155,7 @@ audio: {
 - 支持快速部署（帮助小白的利器）
 - 支持PDF在线预览
 - 更换文本编辑器
-- 解决url编码问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20) [#23](https://github.com/Aicirou/goindex-theme-acrou/issues/23) [#25](https://github.com/Aicirou/goindex-theme-acrou/issues/25)
+- 解决url编码问题 [#20](https://github.com/savemydinar/esmailtv/issues/20) [#23](https://github.com/savemydinar/esmailtv/issues/23) [#25](https://github.com/savemydinar/esmailtv/issues/25)
 - 解决其他已知问题
 
 ### v1.x
