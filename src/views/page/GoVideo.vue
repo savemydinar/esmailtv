@@ -55,7 +55,8 @@
             </div>
           </div>
           <div class="columns is-mobile is-multiline has-text-centered">
-            <div
+           <b><p>Open With (Android Only)</p></b>
+			<div
               class="column"
               v-for="(item, index) in players"
               v-bind:key="index"
@@ -196,9 +197,7 @@ export default {
           scheme:
             "intent:" +
             this.videoUrl +
-            "#Intent;package=com.mxtech.videoplayer.ad;S.title=" +
-            this.title +
-            ";end",
+            "#Intent;package=com.mxtech.videoplayer.ad;b.decode_mode=2;end",
         },
         
       ];
