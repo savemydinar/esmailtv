@@ -213,7 +213,7 @@
 	s.o = function (e, t) {
 		return Object.prototype.hasOwnProperty.call(e, t)
 	},
-	s.p = "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/",
+	s.p = "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/",
 	s.oe = function (e) {
 		throw console.error(e),
 		e
@@ -1254,18 +1254,18 @@
 					NODE_ENV: "production",
 					VUE_APP_I18N_LOCALE: "zh-chs",
 					VUE_APP_I18N_FALLBACK_LOCALE: "en",
-					VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/",
+					VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/",
 					VUE_APP_VERSION: "2.0.8",
 					VUE_APP_G2INDEX_VERSION: "1.1.2",
-					BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/"
+					BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/"
 				}).VUE_APP_API ? Object({
 					NODE_ENV: "production",
 					VUE_APP_I18N_LOCALE: "zh-chs",
 					VUE_APP_I18N_FALLBACK_LOCALE: "en",
-					VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/",
+					VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/",
 					VUE_APP_VERSION: "2.0.8",
 					VUE_APP_G2INDEX_VERSION: "1.1.2",
-					BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/"
+					BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/"
 				}).VUE_APP_API : ""
 			});
 		c.interceptors.request.use((function (e) {
@@ -1592,10 +1592,10 @@
 						NODE_ENV: "production",
 						VUE_APP_I18N_LOCALE: "zh-chs",
 						VUE_APP_I18N_FALLBACK_LOCALE: "en",
-						VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/",
+						VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/",
 						VUE_APP_VERSION: "2.0.8",
 						VUE_APP_G2INDEX_VERSION: "1.1.2",
-						BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/"
+						BASE_URL: "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/"
 					}).VUE_APP_TITLE || "GoIndex";
 				window.document.title = "".concat(t).concat(e ? " | ".concat(e) : "")
 			},
@@ -1699,7 +1699,7 @@
 	cbd9: function (e, t, a) {
 		"use strict";
 		function n(e) {
-			var t = "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.15/dist/";
+			var t = "https://cdn.jsdelivr.net/gh/savemydinar/esmailtv@2.0.14/dist/";
 			return t + e
 		}
 		a.d(t, "a", (function () {
