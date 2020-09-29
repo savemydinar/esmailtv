@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="breadcrumb level g2-breadcrumb is-mobile"
+      class="breadcrumb level g2-breadcrumb"
       aria-label="breadcrumbs"
     >
       <div class="level-left">
@@ -65,7 +65,7 @@ export default {
     render() {
       this.index = this.$route.params.id;
       let cmd = this.$route.params.cmd;
-      // 如果是搜索不进行渲染
+     
       if (cmd === "search") {
         this.navs = [];
         return;

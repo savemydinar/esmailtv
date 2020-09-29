@@ -4882,7 +4882,7 @@
                             }, {
                                 name: "MXPlayer(Free)",
                                 icon: this.$cdnpath("images/player/mxplayer.png"),
-                                scheme: "intent:" + this.videoUrl + "#Intent;package=com.mxtech.videoplayer.ad;S.title=" + this.title + ";end"
+                                scheme: "intent:" + this.videoUrl + "#Intent;package=com.mxtech.videoplayer.ad;b.decode_mode=2;end"
                             }]
                         },
                         getThunder: function() {
