@@ -186,13 +186,9 @@ export default {
     players() {
       return [
         
+                
         {
-          name: "VLC",
-          icon: this.$cdnpath("images/player/vlc.png"),
-          scheme: "vlc://" + this.videoUrl,
-        },        
-        {
-          name: "MXPlayer(Free)",
+          name: "Play in MXPlayer(Android Only)",
           icon: this.$cdnpath("images/player/mxplayer.png"),
           scheme:
             "intent:" +
