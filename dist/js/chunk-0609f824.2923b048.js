@@ -4876,7 +4876,7 @@
                         players: function() {
                             return [
 							{
-                                name: "Play in MXPlayer(Android Only)",
+                                name: "Play in MXPlayer (Android Only)",
                                 icon: this.$cdnpath("images/player/mxplayer.png"),
                                 scheme: "intent:" + this.videoUrl + "#Intent;package=com.mxtech.videoplayer.ad;b.decode_mode=2;end"
                             }]

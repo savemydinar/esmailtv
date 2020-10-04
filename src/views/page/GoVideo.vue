@@ -188,7 +188,7 @@ export default {
         
                 
         {
-          name: "Play in MXPlayer(Android Only)",
+          name: "Play in MXPlayer (Android Only)",
           icon: this.$cdnpath("images/player/mxplayer.png"),
           scheme:
             "intent:" +
